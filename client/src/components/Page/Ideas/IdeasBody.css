@@ -1,0 +1,103 @@
+.idea-box{
+    border: 1px solid #5264AE;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    width: 60vw;
+    height: auto; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    user-select: none;
+    padding-bottom: 1.5em; 
+}
+
+.idea-title{
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+.idea-desc{
+    text-align: justify;
+}
+
+.auth-pos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1em;
+    color: #21306e;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.idea-und {
+    position: relative;
+    /* font-size: px; */
+  }
+  
+  .idea-und::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    height: 5px;
+    border-radius: 2px;
+    background: linear-gradient(111.3deg, #9c27b0 9.6%, #00bcd4 93.6%);
+  }
+
+.temp{
+    margin-top: 4em;
+}
+
+.red-danger{
+    color: #d84228;
+}
+
+.ideasbody-title{
+    display: flex;
+    margin-top: 2em;
+    justify-content: center;
+    column-gap: 1em;
+}
+
+.ideasbody-button{
+    /* margin: auto 0; */
+    display: flex;
+    justify-self: end;
+
+}
+
+.deleteuser-form{
+    padding: 1em;
+}
+
+.deleteuser-subheading{
+    font-size: larger;
+    font-weight: 400;
+}
+
+.deleteuser-regno {
+    color: #746f6f;
+}
+
+
+@media (max-width: 58em){
+    .idea-box{
+        width: 80vw;
+        height: auto;
+        display: block;
+    }
+
+    .auth-pos {
+        flex-direction: column;
+        row-gap: 1em;
+    }
+
+}

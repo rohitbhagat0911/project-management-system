@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Murecho&display=swap');
+
+.view-mode {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Murecho', sans-serif;
+    box-sizing: border-box;    
+    display: flex;
+    column-gap: 6em;
+    text-align: justify;
+}
+
+.plas-sty {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.plas-und {
+    display: block;
+    margin-left: auto ;
+    margin-right: auto;
+    margin-bottom: 2em;
+    position: relative;
+    width: 6.5em;
+    height: 0.3em;
+    background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+    border-radius: 5px;
+    align-items: center;
+    margin-top: 1em;
+}
+
+
+
+.plas-h-sty {
+    position: relative;
+   text-align: center;
+   margin-top: 4em;
+   font-size: 1.7em;
+}
+
+.plas-brdr {
+    display: block;
+    position: relative;
+    border: 0px solid #121212;
+    width: 48em;
+    height: 19em;
+    
+}
+
+
+.plas-p {
+    position: relative;
+    left: 1em;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    word-spacing: 12px;
+}
+
+/* .plas-brdr {
+    display: block;
+    margin-left: 28em ;
+
+} */
+/*  */
+@media (max-width: 80em){
+  
+    .view-mode {
+        display: block;
+        column-gap: normal;
+        margin-left: -2.79em;
+    }
+
+    .plas-h-sty {
+        margin-left: 1em;
+    }
+
+    .plas-brdr{
+        display: contents;
+    }
+
+    .plas-p {
+        display: block;
+        border: 0px solid #005;
+        width: 80vw;
+        height: auto; 
+    }
+
+    .plas-p {
+        display: inline;
+        padding-right: 1em;
+    }
+    .plas-p {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+     
+}
+
+
+
+/* circle animation */
+
+@media only screen and (min-width: 80em) {
+    .td{
+        overflow: hidden;    
+    }
+    
+    .view {
+        position: absolute;
+        top: 92em;
+        left: 0;
+        right: 50em;
+        bottom: 0;
+        perspective: 400;
+    }
+    .plane {
+        width: 300px;
+        height: 300px;
+        transform-style: preserve-3d;
+    }
+    .plane.main {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        transform: rotateX(60deg) rotateZ(-30deg);
+        -webkit-animation: rotate 20s infinite linear;
+        animation: rotate 20s infinite linear;
+    }
+    .plane.main .circle {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        transform-style: preserve-3d;
+        border-radius: 100%;
+        box-sizing: border-box;
+        box-shadow: 0 0 60px rgb(43, 206, 218), inset 0 0 60px rgb(46, 178, 196);
+    }
+    .plane.main .circle::before, .plane.main .circle::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 10%;
+        height: 10%;
+        border-radius: 100%;
+        background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+        box-sizing: border-box;
+        box-shadow: 0 0 60px 2px rgb(18, 163, 156);
+    }
+    .plane.main .circle::before {
+        transform: translateZ(-90px);
+    }
+    .plane.main .circle::after {
+        transform: translateZ(90px);
+    }
+    .plane.main .circle:nth-child(1) {
+        transform: rotateZ(72deg) rotateX(63.435deg);
+    }
+    .plane.main .circle:nth-child(2) {
+        transform: rotateZ(144deg) rotateX(63.435deg);
+    }
+    .plane.main .circle:nth-child(3) {
+        transform: rotateZ(216deg) rotateX(63.435deg);
+    }
+    .plane.main .circle:nth-child(4) {
+        transform: rotateZ(288deg) rotateX(63.435deg);
+    }
+    .plane.main .circle:nth-child(5) {
+        transform: rotateZ(360deg) rotateX(63.435deg);
+    }
+    @-webkit-keyframes rotate {
+        0% {
+            transform: rotateX(0) rotateY(0) rotateZ(0);
+       }
+        100% {
+            transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+       }
+    }
+    @keyframes rotate {
+        0% {
+            transform: rotateX(0) rotateY(0) rotateZ(0);
+       }
+        100% {
+            transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+       }
+    }
+    
+
+    .plas-sty {
+        display: block;
+       margin-top: -7.8em;
+       margin-right: 4.5em;
+    }
+
+}
+

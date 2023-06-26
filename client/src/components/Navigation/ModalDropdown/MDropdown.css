@@ -1,0 +1,39 @@
+.heading-model{
+    padding-left: 0.2em;
+    padding-top: 0.5em;
+    color: #596066;
+
+
+}
+
+.border-sty {
+    border-bottom: 0.5px solid #c1c8cf;
+    line-height: 2.5em;
+   margin-top: -0.2em;
+   font-size: large;
+   padding-left: 0.5em;
+   font-weight: 500;
+   color: #596066;
+   
+}
+
+.border-logout {
+    font-size: larger;
+   font-weight: 500;
+   padding-left: 0.5em;
+   margin-bottom: -0.1em;
+   
+   
+}
+
+.logout-link {
+    color: #212529 !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logout-link:hover {
+    color: #7e97b8 !important;
+  transition: all 0.5s ease-out;
+
+}

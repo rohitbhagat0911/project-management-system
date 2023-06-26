@@ -1,0 +1,270 @@
+
+.main-backgroundd {
+
+    /* position: absolute;
+    top: 0em;
+    left: 20vw;
+    border: 1px solid #5264AE;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    width: 50vw;
+    height: 20em;  */
+
+    border: 1px solid #5264AE;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    width: 60vw;
+    height: auto; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.5em;
+    padding-left: 1em ; 
+    user-select: none;   
+  }
+
+  .main-backgroundd {
+      display: block;
+      align-items: center;
+      /* background-color: #9e5cf5; */
+  }
+
+  .main-backgroundd {
+      display: flex;
+  }
+
+  /* .main-backgroundd{
+    position: relative;
+} */
+
+.project-img {
+    border: 0px solid red;
+    border-radius: 10px;
+    align-content: center;
+    display: block;
+    object-fit: cover;
+    
+}
+
+
+.project-title {
+    position: relative;
+    display: block;
+     text-align: center;
+    /* margin-left: 4em; */
+    margin-top: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    
+   
+}
+
+
+.project-title {
+    border: 0px solid #5264AE;
+    width: auto;
+    height: auto;
+    font-size: 1.8em;
+    font-weight: 600;
+
+}
+
+.project-title-mobile {
+    display: none;
+}
+
+.desc-pos {
+     border: 0px solid #5264AE;
+     width: auto;
+     height: auto;
+     padding: 1em ;
+     padding-bottom: 0;
+     margin-top: 1.5em;
+}
+
+
+
+.project-developer {
+    border: 0px solid #5264AE;
+    width: auto;
+    height: auto;
+    padding: 1em;
+    padding-bottom: 0;   
+}
+
+.project-year {
+    border: 0px solid #5264AE;
+    width: 8em;
+    height: auto;
+    padding-top: 1em;
+    padding-left: 1em;
+
+    padding-bottom: 0;  
+    
+}
+
+
+
+/*  */
+
+
+
+
+.view-button {
+    display: block;
+   float: right;
+    margin-right: 4em;
+    margin-bottom: 2em;
+   
+    
+}
+
+.view-button {
+    
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    height: 36px;
+    width: 6em;
+    text-align: center;
+    line-height: 34px;
+    font-size: 14px;
+    color: #ffffff;
+    background: linear-gradient(to right, #8041F2 , #2d7eff);
+    transition: 0.8s ease-in-out ;
+    padding: 0 18px;
+    
+
+}
+
+
+
+.view-button:hover {
+    border-radius: 40px;
+}
+
+
+.link-problem {
+    text-decoration: none;
+}
+
+.link-problem {
+    display: block;
+    
+}
+
+.addprojects-icons{
+    font-size: xx-large;
+  margin-top: 1.5em;
+}
+
+@media (max-width: 58em){
+    .main-backgroundd{
+        width: 80vw;
+        height: auto;
+        display: block;
+    }
+
+    .project-title{
+        display: none;
+    }
+
+    .project-title-mobile{
+        display: block;
+        font-size: 1.8em;
+        font-weight: 500;
+        text-align: center;
+        padding-top: 0.7em;
+        padding-bottom: 0.7em;
+    }
+
+    .project-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+  
+}
+
+@media (max-width: 64em) {
+
+    .view-button {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+
+}
+
+
+.pagination-sty{
+      padding-bottom: 2em;
+}
+
+
+
+.empty-state {
+    width: 70vw;
+    margin: 40px auto;
+    background: rgb(255, 255, 255);
+    box-shadow: 1px 2px 10px #e1e3ec;
+    border-radius: 4px;
+    user-select: none;
+}
+.empty-state__content {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.empty-state__content .empty-state__icon {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    border-radius: 200px;
+    justify-content: center;
+    background-color: #f7fafc;
+    box-shadow: 0px 2px 1px #e1e3ec;
+    user-select: none;
+}
+.empty-state__content .empty-state__icon img {
+    width: 170px;
+    user-select: none;
+}
+.empty-state__content .empty-state__message {
+    color: #38a169;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 0.85rem;
+}
+.empty-state__content  {
+    color: #a2a5b9;
+    font-size: 0.875rem;
+}
+.credit {
+    color: #a2a5b9;
+    font-size: 0.75rem;
+    text-align: center;
+}
+.credit a {
+    color: #444;
+}
+
+
+/* @media only screen and (max-width: 48em){
+    .empty-state {
+        width: 750px;
+        margin: 40px auto;
+        background: #fff;
+        box-shadow: 1px 2px 10px #e1e3ec;
+        border-radius: 4px;
+    }
+} */

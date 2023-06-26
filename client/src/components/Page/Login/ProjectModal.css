@@ -1,0 +1,47 @@
+.modal-txt{
+    padding-top: 1em;
+    padding-left: 1em;
+    font-size: large;
+    
+}
+
+
+.btn-container {
+  
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 2.5em;
+    /* margin-right: 0; */
+    padding-right: 2em;
+    margin-left: auto;
+    
+    
+
+  }
+  .btn-design {
+    outline: none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    border-radius: 10px;
+    background: #fff;
+    border: 2px solid rgba(84,58,183,1); 
+    color: #5264AE;
+    letter-spacing: 1px;
+    text-shadow: 0;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.25s ease;
+  }
+  .btn-design:hover {
+    color: white;
+    background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+  }
+  .btn-design:active {
+    letter-spacing: 2px;
+  }
+  .btn-design:after {
+    content: "CLOSE";
+  }
+  

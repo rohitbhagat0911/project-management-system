@@ -1,0 +1,41 @@
+.users-pos{
+    display: flex;
+    margin-top: 7em;
+    justify-content: center;
+    column-gap: 2em;
+
+
+}
+
+.input-search{
+    width: 40vw;
+    height: 6.5vh;
+    outline: none; 
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.input-search::-webkit-search-cancel-button{
+    position:relative;
+
+    height: 80px;
+    width: 80px;
+    
+}
+
+.button-group{
+    display: flex;
+    column-gap: 1.5em;
+}
+
+.button-style{
+    display: block;
+    padding: 0.4em 0.7em;
+}
+
+.red-danger{
+    color: #d84228;
+}

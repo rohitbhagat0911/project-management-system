@@ -1,0 +1,47 @@
+
+.table-layout{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5em;
+}
+
+.user-table{
+    border-collapse: collapse;
+  width: 70%;
+  border: 1px solid black;
+  
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.usersbody-view-icons{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1em;
+}
+
+.deleteuser-form{
+    padding: 1em;
+}
+
+.deleteuser-subheading{
+    font-size: larger;
+    font-weight: 400;
+}
+
+.deleteuser-regno {
+    color: #746f6f;
+}
+
+@media (max-width: 58em) {
+    .user-table{
+        border-collapse: collapse;
+      width: 90%;
+      border: 1px solid black;
+      
+    }
+}

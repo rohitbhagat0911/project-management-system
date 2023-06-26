@@ -1,0 +1,73 @@
+
+ .dropdown-poss {
+  position: relative;
+   /* left: 14em;
+   margin-top: -2em;
+      */
+    
+}
+
+
+ .select-stylee {
+   padding: 0;
+   margin: 0;
+   border: 1px solid #ccc;
+   width: 12em;
+   height: 2em;
+   border-radius: 3px;
+   overflow: hidden;
+   background-color: #fff;
+   background: #fff;
+   position: relative;
+}
+
+.select-stylee {
+   display: inline;
+   padding: 4px 2px;
+}
+
+.select-stylee {
+   display: block;
+   width: 14em;
+   height: 3em;
+}
+
+.select-stylee .selectt {
+   padding: 5px 8px;
+   width: 14.5em;
+   font-size: 1em;
+   height: 2em;
+   border: none;
+   box-shadow: none;
+   background-color: transparent;
+   background-image: none;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+}
+
+.selectt {
+   display: inline;
+   padding: 12px 4px;
+   position: relative;
+}
+
+.select-stylee:after {
+   top: 50%;
+   left: 85%;
+   border: solid transparent;
+   content: " ";
+   height: 0;
+   width: 0;
+   position: absolute;
+   pointer-events: none;
+   border-color: rgba(0, 0, 0, 0);
+   border-top-color: #000000;
+   border-width: 5px;
+   margin-top: -2px;
+   z-index: 100;
+}
+
+.select-stylee .selectt:focus {
+   outline: none;
+} 
